@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Imagenes from "./Components/imagenes";
+import Imagenes from "./Components/Imagenes";
 function App() {
   const [datos, setDatos]= useState([]);
   const ACCESS_POINT="https://rickandmortyapi.com/api/character";
